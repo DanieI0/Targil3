@@ -95,7 +95,7 @@ public class Exercise8 {
         for (int i = 0; i<str.length(); i++) {
             for ( int j = 0; j<str2.length(); j++) {
                 if (str.length() == str2.length()) {
-                    if (str.charAt(i) == str2.charAt(j)) {
+                     if (str.charAt(j) == str2.charAt(j)) {
                         count++;
                     }
                     if (count == str.length()) {
